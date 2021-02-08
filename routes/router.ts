@@ -45,6 +45,7 @@ router.get('/users/:groupId', (req,res,next)=>{
             res.json(element.users);
         }
     });
+    res.json({});
     
 })
 

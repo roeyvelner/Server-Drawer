@@ -26,6 +26,7 @@ router.get('/users/:groupId', function (req, res, next) {
             res.json(element.users);
         }
     });
+    res.json({});
 });
 router.get('/teams', function (req, res, next) {
     console.log("Get Teams");
