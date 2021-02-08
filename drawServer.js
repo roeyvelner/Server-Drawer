@@ -12,9 +12,9 @@ const route = require('./routes/router.js')
 app.use(cors());
 app.use(route);
 
+const port = process.env.port || 4000;
 
-
-app.listen(4000);
+app.listen(port);
 
 
 
